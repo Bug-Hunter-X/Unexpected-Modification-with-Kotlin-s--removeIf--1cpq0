@@ -1,0 +1,1 @@
+This example demonstrates a subtle, yet common, issue in Kotlin involving the `removeIf` function.  While seemingly straightforward, `removeIf` modifies the original collection directly. This can lead to bugs if you anticipate a new collection being returned.  The provided solution illustrates how to achieve the same functionality without unintended side effects.
